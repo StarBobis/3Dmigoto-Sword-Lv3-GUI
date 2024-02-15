@@ -60,7 +60,7 @@
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Red;
-            this.button2.Location = new System.Drawing.Point(158, 45);
+            this.button2.Location = new System.Drawing.Point(186, 45);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 23);
             this.button2.TabIndex = 1;
@@ -77,7 +77,7 @@
             this.githubToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(295, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(319, 25);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -156,7 +156,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(295, 90);
+            this.ClientSize = new System.Drawing.Size(319, 90);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);

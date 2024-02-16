@@ -38,8 +38,6 @@
             this.honkaiImpact3rdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zenlessZoneZeroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.narakaBladepointToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.discordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.githubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -72,9 +70,7 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Black;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gameToolStripMenuItem,
-            this.discordToolStripMenuItem,
-            this.githubToolStripMenuItem});
+            this.gameToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(319, 25);
@@ -129,24 +125,6 @@
             this.narakaBladepointToolStripMenuItem.Text = "Naraka Bladepoint";
             this.narakaBladepointToolStripMenuItem.Click += new System.EventHandler(this.narakaBladepointToolStripMenuItem_Click);
             // 
-            // discordToolStripMenuItem
-            // 
-            this.discordToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.discordToolStripMenuItem.ForeColor = System.Drawing.Color.Lime;
-            this.discordToolStripMenuItem.Name = "discordToolStripMenuItem";
-            this.discordToolStripMenuItem.Size = new System.Drawing.Size(65, 21);
-            this.discordToolStripMenuItem.Text = "Discord";
-            this.discordToolStripMenuItem.Click += new System.EventHandler(this.discordToolStripMenuItem_Click);
-            // 
-            // githubToolStripMenuItem
-            // 
-            this.githubToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.githubToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.githubToolStripMenuItem.Name = "githubToolStripMenuItem";
-            this.githubToolStripMenuItem.Size = new System.Drawing.Size(58, 21);
-            this.githubToolStripMenuItem.Text = "Github";
-            this.githubToolStripMenuItem.Click += new System.EventHandler(this.githubToolStripMenuItem_Click);
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
@@ -183,8 +161,6 @@
         private System.Windows.Forms.ToolStripMenuItem honkaiImpact3rdToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zenlessZoneZeroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem narakaBladepointToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem discordToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem githubToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

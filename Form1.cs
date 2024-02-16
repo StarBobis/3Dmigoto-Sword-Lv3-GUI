@@ -149,14 +149,6 @@ namespace _3Dmigoto_Sword_GUI
             }
         }
 
-        private void githubToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Process.Start("https://github.com/StarBobis");
-        }
 
-        private void discordToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Process.Start("https://discord.gg/Mdw8dKsTa5");
-        }
     }
 }

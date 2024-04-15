@@ -39,6 +39,9 @@
             this.zenlessZoneZeroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.narakaBladepointToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.authorNicoMicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.discordShaderFreedomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +73,8 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Black;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gameToolStripMenuItem});
+            this.gameToolStripMenuItem,
+            this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(319, 25);
@@ -129,6 +133,30 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.authorNicoMicoToolStripMenuItem,
+            this.discordShaderFreedomToolStripMenuItem});
+            this.aboutToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(55, 21);
+            this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // authorNicoMicoToolStripMenuItem
+            // 
+            this.authorNicoMicoToolStripMenuItem.Name = "authorNicoMicoToolStripMenuItem";
+            this.authorNicoMicoToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.authorNicoMicoToolStripMenuItem.Text = "Author: NicoMico";
+            this.authorNicoMicoToolStripMenuItem.Click += new System.EventHandler(this.authorNicoMicoToolStripMenuItem_Click);
+            // 
+            // discordShaderFreedomToolStripMenuItem
+            // 
+            this.discordShaderFreedomToolStripMenuItem.Name = "discordShaderFreedomToolStripMenuItem";
+            this.discordShaderFreedomToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.discordShaderFreedomToolStripMenuItem.Text = "Discord: ShaderFreedom";
+            this.discordShaderFreedomToolStripMenuItem.Click += new System.EventHandler(this.discordShaderFreedomToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -162,6 +190,9 @@
         private System.Windows.Forms.ToolStripMenuItem zenlessZoneZeroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem narakaBladepointToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem authorNicoMicoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem discordShaderFreedomToolStripMenuItem;
     }
 }
 

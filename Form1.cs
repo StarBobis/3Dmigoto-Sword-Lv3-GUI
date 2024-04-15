@@ -149,6 +149,14 @@ namespace _3Dmigoto_Sword_GUI
             }
         }
 
+        private void authorNicoMicoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/StarBobis");
+        }
 
+        private void discordShaderFreedomToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://discord.gg/Cz577BcRf5");
+        }
     }
 }

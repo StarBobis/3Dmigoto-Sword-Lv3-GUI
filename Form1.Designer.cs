@@ -38,17 +38,18 @@
             this.honkaiImpact3rdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zenlessZoneZeroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.narakaBladepointToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.authorNicoMicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.discordShaderFreedomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.Red;
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button1.Location = new System.Drawing.Point(12, 45);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 23);
@@ -60,7 +61,7 @@
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.Red;
+            this.button2.ForeColor = System.Drawing.Color.Fuchsia;
             this.button2.Location = new System.Drawing.Point(186, 45);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 23);
@@ -89,7 +90,7 @@
             this.honkaiImpact3rdToolStripMenuItem,
             this.zenlessZoneZeroToolStripMenuItem,
             this.narakaBladepointToolStripMenuItem});
-            this.gameToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
+            this.gameToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.gameToolStripMenuItem.Name = "gameToolStripMenuItem";
             this.gameToolStripMenuItem.Size = new System.Drawing.Size(54, 21);
             this.gameToolStripMenuItem.Text = "Game";
@@ -129,22 +130,20 @@
             this.narakaBladepointToolStripMenuItem.Text = "Naraka Bladepoint";
             this.narakaBladepointToolStripMenuItem.Click += new System.EventHandler(this.narakaBladepointToolStripMenuItem_Click);
             // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.authorNicoMicoToolStripMenuItem,
             this.discordShaderFreedomToolStripMenuItem});
-            this.aboutToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.aboutToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(55, 21);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // authorNicoMicoToolStripMenuItem
             // 
+            this.authorNicoMicoToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.authorNicoMicoToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
             this.authorNicoMicoToolStripMenuItem.Name = "authorNicoMicoToolStripMenuItem";
             this.authorNicoMicoToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.authorNicoMicoToolStripMenuItem.Text = "Author: NicoMico";
@@ -152,17 +151,36 @@
             // 
             // discordShaderFreedomToolStripMenuItem
             // 
+            this.discordShaderFreedomToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.discordShaderFreedomToolStripMenuItem.ForeColor = System.Drawing.Color.Lime;
             this.discordShaderFreedomToolStripMenuItem.Name = "discordShaderFreedomToolStripMenuItem";
             this.discordShaderFreedomToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.discordShaderFreedomToolStripMenuItem.Text = "Discord: ShaderFreedom";
             this.discordShaderFreedomToolStripMenuItem.Click += new System.EventHandler(this.discordShaderFreedomToolStripMenuItem_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(15, 88);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(292, 12);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Happy Reverse! May the devil be with you.";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(319, 90);
+            this.ClientSize = new System.Drawing.Size(319, 109);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
@@ -170,7 +188,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "3Dmigoto-Sword V3.0.0.1";
+            this.Text = "3Dmigoto-Sword V3.0.0.3";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -193,6 +211,7 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem authorNicoMicoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem discordShaderFreedomToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
 

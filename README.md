@@ -1,3 +1,6 @@
+# Archived
+This project is stop developed and transfer all code into my MigotoModTool (MMT) project,and keep developing it there, so this repository now turn into archived.
+
 # 3Dmigoto-Sword-GUI
 3Dmigoto-Sword-CLI's simple GUI
 
